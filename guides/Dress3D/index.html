@@ -4,8 +4,8 @@
 <meta charset="UTF-8">
 <meta name="generator" content="Docusaurus v3.8.1">
 <title data-rh="true">Dress3D Guide | Clothy3D</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://clothy3d.github.io/img/Clothy3D.ico"><meta data-rh="true" name="twitter:image" content="https://clothy3d.github.io/img/Clothy3D.ico"><meta data-rh="true" property="og:url" content="https://clothy3d.github.io/guides/Dress3D"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Dress3D Guide | Clothy3D"><meta data-rh="true" name="description" content="Dress3D is a tool to dress avatar and export rigged clothes and base characters. It is used in the following steps."><meta data-rh="true" property="og:description" content="Dress3D is a tool to dress avatar and export rigged clothes and base characters. It is used in the following steps."><link data-rh="true" rel="icon" href="/img/Clothy3D.ico"><link data-rh="true" rel="canonical" href="https://clothy3d.github.io/guides/Dress3D"><link data-rh="true" rel="alternate" href="https://clothy3d.github.io/guides/Dress3D" hreflang="en"><link data-rh="true" rel="alternate" href="https://clothy3d.github.io/guides/Dress3D" hreflang="x-default"><script data-rh="true" type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Guides","item":"https://clothy3d.github.io/category/guides"},{"@type":"ListItem","position":2,"name":"Dress3D Guide","item":"https://clothy3d.github.io/guides/Dress3D"}]}</script><link rel="stylesheet" href="/assets/css/styles.bdbf7f5d.css">
-<script src="/assets/js/runtime~main.b891f7fe.js" defer="defer"></script>
-<script src="/assets/js/main.5d420085.js" defer="defer"></script>
+<script src="/assets/js/runtime~main.b398b676.js" defer="defer"></script>
+<script src="/assets/js/main.12c52149.js" defer="defer"></script>
 </head>
 <body class="navigation-with-keyboard">
 <svg xmlns="http://www.w3.org/2000/svg" style="display: none;"><defs>
@@ -20,7 +20,7 @@
 <p>Find the interchangeable character corresponding to the original base character, <a href="/references/Import_Model/Asset">Import it</a> to the right scene;</p>
 <p>Import all <a href="/references/Import_Model/Asset">interchangeable clothes</a> to right scene.</p>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="21-transfer-original-cloth-bones-and-skin-weights-optionally">2.1 Transfer Original Cloth Bones And Skin Weights (optionally)<a href="#21-transfer-original-cloth-bones-and-skin-weights-optionally" class="hash-link" aria-label="Direct link to 2.1 Transfer Original Cloth Bones And Skin Weights (optionally)" title="Direct link to 2.1 Transfer Original Cloth Bones And Skin Weights (optionally)">​</a></h3>
-<p>If the original cloth model of an imported interchangeable cloth is a skeletal model, then a dialog window is pop up to ask if you allow merge its skeleton to the skeleton of the dressed character. If these two skeletons are compatible, they are merged. Then another dialog window is pop up to ask if you wants to use the original skin weights, and will transfer original skin weights if you wants.</p>
+<p>If the original cloth model of an imported interchangeable cloth is a skeletal model whose skeleton is compatiable with the skeleton of the dressed caharacter, then a dialog window is pop up to ask if you allow merge its skeleton to the skeleton of the dressed character. If these two skeletons are compatible, they are merged. Then another dialog window is pop up to ask if you wants to use the original skin weights, and will transfer original skin weights if you wants.</p>
 <p>If the two skeletons are not compatible or you do not want to use the original skin weights, then the interchangeable cloth is imported as if it was converted from a static model.</p>
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="22-add-cloth-bones-optionally">2.2 Add Cloth Bones (optionally)<a href="#22-add-cloth-bones-optionally" class="hash-link" aria-label="Direct link to 2.2 Add Cloth Bones (optionally)" title="Direct link to 2.2 Add Cloth Bones (optionally)">​</a></h3>
 <p>When a cloth is converted by Cloth Convertor, some vertex groups may be set to transfer same skin weights for each group from a vertex of the interchangeable character.</p>
@@ -49,7 +49,7 @@
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="6-add-rigid-accessories-optionally">6 Add Rigid Accessories (optionally)<a href="#6-add-rigid-accessories-optionally" class="hash-link" aria-label="Direct link to 6 Add Rigid Accessories (optionally)" title="Direct link to 6 Add Rigid Accessories (optionally)">​</a></h2>
 <p>A rigid accessory such as a weapon can be added as follows:</p>
 <ul>
-<li>Click a vertex of the interchangeable character in the right scene</li>
+<li>Click a vertex of the model in the middle scene</li>
 <li>Import the accessory model as a static model to the middle scene</li>
 <li>A dialog window is pop up and select your options</li>
 </ul>
